@@ -15,4 +15,16 @@
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
+  networks: {
+  	gyaan: {
+  		host: "gyaan.network",
+  		port: 8545,
+  		network_id: "17"
+  	},
+  	ganache: {
+  		host: "localhost",
+  		port: 8545,
+  		network_id: "*"
+  	}
+  }
 };
